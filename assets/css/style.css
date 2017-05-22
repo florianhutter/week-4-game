@@ -1,0 +1,106 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	background: #2D9FD6;
+
+}
+
+h2 {
+	font-size: 22px;
+}
+
+#logo {
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 20px;
+	
+}
+
+#instructions {
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+
+#guessingNumber {
+	background-color: #B6E2F5;
+	padding: 10px;
+	padding-top: 0px;
+	margin-top: 20px;
+	border: solid 3px black;
+	border-radius: 9px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+
+}
+
+#totalScore {
+	background-color: #B6E2F5;
+	padding: 10px;
+	padding-top: 0;
+	margin-top: 20px;
+	border: solid 3px black;
+	border-radius: 9px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	
+	
+}
+
+
+
+
+#scores {
+	background-color: #B6E2F5;
+	display: inline-block;
+	padding: 0px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 50px;
+	border: solid 3px black;
+	border-radius: 9px;
+	
+	
+
+}
+
+#crystals {
+	margin-top: 35px;
+	margin-bottom:26px;
+	float: left;
+}
+
+
+.crystalFace {
+	width: 15%;
+	float: left;
+	margin-left: 8%;
+}
+
+.crystalFace:hover {
+	width: 15%;
+	float: left;
+	margin-left: 8%;
+	background: #FE9A02;
+	padding: 15px;
+	border-radius: 300px;
+	}
+
+@media (max-width: 1180px) {
+	.crystalFace:hover{
+	padding: 10px;	}
+}
+
+@media (max-width: 753px) {
+	.crystalFace:hover{
+	padding: 6px;	}
+  	#instructions{
+  		display:none;}
+  	#logo{
+  		width: 90%;
+  	}
+	}
